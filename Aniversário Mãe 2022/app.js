@@ -64,7 +64,7 @@ confetti.render();
 
 const audio = query('audio');
 
-audio.currentTime = 4;
+audio.currentTime = 7;
 
 let hasStarted = false;
 
