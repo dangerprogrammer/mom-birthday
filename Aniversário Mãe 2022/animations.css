@@ -1,0 +1,50 @@
+@keyframes animateBgImg {
+    from {
+        filter: brightness(1) blur(0);
+    }
+    to {
+        filter: brightness(40%) blur(10px);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes spawnShowImgs {
+    to {
+        transform: translateY(-110px);
+    }
+}
+
+@keyframes animateShowImgs {
+    from {
+        transform: translateY(-105px);
+    }
+    to {
+        transform: translateY(-120px);
+    }
+}
+
+@keyframes hideShowImgs {
+    from {
+        transform: translateY(-110px);
+        box-shadow: 0 3px 10px 3px;
+    }
+    to {
+        transform: translateY(-30px);
+        box-shadow: none;
+    }
+}
+
+@keyframes spawnShowBirthday {
+    to {
+        transform: translateY(-105px);
+    }
+}
+
+@keyframes hideShowBirthday {
+    from {
+        transform: translateY(-105px);
+    }
+    to {
+        transform: translateY(-30px);
+    }
+}
